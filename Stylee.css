@@ -1,0 +1,53 @@
+body { background-color: FireBrick}
+
+h1 { color: white; 
+		font-size: 48px }
+
+.myheading {color: white}
+
+h2 { color: green }
+
+header img {
+  border-radius:100%;
+  width: 200px;
+  float: left;
+  margin: 20px;
+}
+
+header#main-heading {
+  background: url(http://cdn.paper4pc.com/images/stars-wallpaper-10.jpg) center center;
+  padding: 5%;
+  line-height: 1.2;
+  color: crimson;
+  position: relative;
+  z-index: 0;
+}
+
+aside.sidebar {
+  width: 25%;
+  float: right;
+  padding: 100px 80px;
+  font-size: 20px;
+}
+
+aside.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+aside.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+aside.sidebar a {
+  color: white;
+}
+
+aside.sidebar a:hover {
+  font-weight: bold;}
+
+p.summary {
+  font-size: 30px;
+  text-shadow: 0 0 5px white;}
